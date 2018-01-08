@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/action_home"/>
+
+        <item
+            android:id="@+id/action_books"
+            android:icon="@drawable/ic_books"
+            android:title="@string/action_books"/>
+
+        <item
+            android:id="@+id/action_items"
+            android:icon="@drawable/ic_item"
+            android:title="@string/action_items"/>
+
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="@string/navigation_subheader">
+
+        <menu>
+            <item
+                android:id="@+id/action_help"
+                android:title="@string/action_help"/>
+
+            <item
+                android:id="@+id/action_settings"
+                android:title="@string/action_settings"/>
+        </menu>
+
+    </item>
+
+</menu>
