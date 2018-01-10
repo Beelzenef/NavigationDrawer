@@ -5,6 +5,7 @@
     android:layout_height="@dimen/navheader_height"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
+    android:paddingLeft="@dimen/navheader_leftpadding"
     android:background="@drawable/background_md">
 
     <!-- Imagen de perfil -->
